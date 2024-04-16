@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #111;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.form-container {
+    margin-left: 25%;
+    width: 45%;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    text-align: center;
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.form-container input,
+.form-container select {
+    margin-left: 15%;
+    width: 70%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #555;
+    border-radius: 3px;
+    background-color: #222;
+    color: #fff;
+}
+
+.form-container button {
+    width:30%;
+    margin-left: 37%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #0056b3;
+}
+
+#lista-despesas {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+#lista-despesas h2 {
+    margin-top: 20px;
+    border-bottom: 1px solid #007bff;
+    padding-bottom: 10px;
+}
+
+#lista-despesas div {
+    margin-bottom: 10px;
+}
+
+#lista-despesas button {
+    margin-left: 10px;
+}

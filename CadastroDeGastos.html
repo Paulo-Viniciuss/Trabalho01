@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Gastos</title>
+    <link rel="stylesheet" href="DesingDeGastos.css">
+</head>
+<body>
+    <h1>Cadastro de Gastos</h1>
+    
+    <div id="form-container" class="form-container">
+        <label for="categoria">Categoria:</label>
+        <select id="categoria">
+            <option value="alimentacao">Alimentação</option>
+            <option value="transporte">Transporte</option>
+            <option value="lazer">Lazer</option>
+            <option value="moradia">Moradia</option>
+            <option value="educacao">Educação</option>
+            <option value="outros">Outros</option>
+            
+        </select>
+        <label for="descricao">Descrição:</label>
+        <input type="text" id="descricao">
+        <label for="valor">Valor:</label>
+        <input type="number" id="valor">
+        <label for="pagamento">Método de Pagamento:</label>
+        <select id="pagamento">
+            <option value="dinheiro">Dinheiro</option>
+            <option value="credito">Cartão de Crédito</option>
+            <option value="debito">Cartão de Débito</option>
+            <option value="pix">PIX</option>
+            
+        </select>
+        <button id="botaoAdicionarDespesa" onclick="adicionarDespesa()">Adicionar Despesa</button>
+        <button id="botaoSalvarDespesa" style="display: none;" onclick="salvarDespesa()">Salvar Despesa</button>
+    </div>
+
+    <div id="lista-despesas"></div>
+
+    <script src="ControladorDeGastos.js"></script>
+</body>
+</html>
